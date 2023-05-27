@@ -1,0 +1,23 @@
+{
+  "changelogDate": "20230527092855",
+  "clientRootFolder": "test",
+  "databaseType": "mongodb",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "cronExpression",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "test",
+  "name": "CronScheduler",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}

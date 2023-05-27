@@ -1,0 +1,31 @@
+{
+  "changelogDate": "20230527093626",
+  "clientRootFolder": "test",
+  "databaseType": "mongodb",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "rank",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "impressions",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "clicks",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "microserviceName": "test",
+  "name": "TrafficData",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
